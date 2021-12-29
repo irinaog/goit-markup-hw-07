@@ -1,0 +1,72 @@
+$accent-color: #2196f3;
+$title-text-color: #212121;
+$text-color: #757575;
+$white-color: #fff;
+$card-set-gap: 30px;
+$container-padding: 94px;
+$transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+.footer .container {
+  display: flex;
+}
+
+.footer {
+  background-color: #2f303a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress {
+  margin-top: 20px;
+
+  color: $white-color;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer__contacts > .footer__contacts-item {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+}
+
+.footer__network-link {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 0;
+}
+
+.footer__features-title {
+  color: $white-color;
+  margin-bottom: 20px;
+}
+
+.followbox {
+  margin-left: 70px;
+}
+
+.subscribe {
+  margin-left: 94px;
+}
+
+.subscribe__wrap {
+  display: flex;
+}
+
+.subscribe__input {
+  height: 50px;
+  width: 358px;
+  margin-right: 12px;
+  padding: 15px 16px;
+
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: $white-color;
+}
+
+.icon-send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
